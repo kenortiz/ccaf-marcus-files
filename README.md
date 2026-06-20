@@ -69,9 +69,11 @@ cd app && python3 serve.py     # → http://127.0.0.1:8765
 
 Online fonts are optional — the app falls back to system fonts and works fully offline.
 
-### Host it online (optional)
+### Host it online
 
-The app is fully static, so any static host works (GitHub Pages, Netlify, Vercel, Cloudflare Pages). GitHub Pages serves from the repo root or `/docs`, so to publish via Pages either move the contents of `app/` to the repo root (or a `docs/` folder) or point your host's root at the `app/` directory.
+**Live demo:** **https://kenortiz.github.io/ccaf-marcus-files/**
+
+This repo deploys to **GitHub Pages** automatically via [`.github/workflows/pages.yml`](.github/workflows/pages.yml) — it publishes the `app/` directory on every push to `main`, with no build step. The app is fully static, so any other static host works just as well (Netlify, Vercel, Cloudflare Pages); point the host's root at the `app/` directory.
 
 ---
 
