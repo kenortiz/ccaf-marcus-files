@@ -1,0 +1,12 @@
+# OS cruft
+.DS_Store
+**/.DS_Store
+
+# Local Claude Code config (machine-specific absolute paths)
+.claude/
+
+# Personal study source materials — NOT for public publication
+cca-f-context.md
+CCA-F-Master-Study-Plan.md
+CCA-F-Build-Workbook.md
+CCA-F-The-Worf-Story.md
