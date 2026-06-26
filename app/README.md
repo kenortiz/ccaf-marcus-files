@@ -43,7 +43,7 @@ open index.html        # macOS
 
 - Progress (lab checkboxes, drill scores, the progress bar) saves to your browser's localStorage. Different browser = fresh start.
 - Terminal panels in the episodes are **recreations** of what you should see, not screenshots — your exact output will differ slightly.
-- Doc links point to official sources: `code.claude.com/docs`, `docs.claude.com`, `anthropic.skilljar.com`, `modelcontextprotocol.io`. Always trust the live docs over any study guide, including this one.
+- Doc links point to official sources: `code.claude.com/docs`, `platform.claude.com/docs`, `anthropic.skilljar.com`, `modelcontextprotocol.io`. Always trust the live docs over any study guide, including this one.
 - This is an unofficial study aid. All characters and companies are fictional.
 
 Share the whole `app/` folder — it's self-contained.

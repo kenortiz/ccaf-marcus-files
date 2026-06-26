@@ -172,14 +172,14 @@ if __name__ == "__main__":
 <div class="viewscreen">
   <div class="vs-head">VIEWSCREEN // OFFICIAL DOCS — CONTEXT &amp; COMPACTION</div>
   <div class="vs-body">
-    <div class="vs-src">code.claude.com/docs → Manage costs &amp; context · docs.claude.com → Context windows</div>
+    <div class="vs-src">code.claude.com/docs → Context window · platform.claude.com → Context windows</div>
     <ul>
       <li>The context window holds <em>everything</em>: system prompt, conversation, tool definitions, every tool result. It is finite, and <strong>quality degrades as it fills</strong>.</li>
       <li><strong>Lost in the middle:</strong> recall is strongest at the start and end of a long context, weakest in the middle. Put key facts at the edges; use clear headers.</li>
       <li><strong>Compaction</strong> (<code>/compact</code> in Claude Code) summarizes the session to free space. Summaries are lossy — <strong>exact numbers, dates, and identifiers are what they lose first.</strong> Preserve critical facts outside the conversation (a file, CLAUDE.md, a structured store) before relying on a summary.</li>
       <li>Long agent runs should <em>externalize state</em>: write decisions and key values to files/notes rather than trusting the transcript to remember.</li>
     </ul>
-    <p style="margin:8px 0 0"><a href="https://code.claude.com/docs" target="_blank" rel="noopener">→ code.claude.com/docs — context &amp; sessions</a></p>
+    <p style="margin:8px 0 0"><a href="https://code.claude.com/docs/en/context-window" target="_blank" rel="noopener">→ code.claude.com/docs — explore the context window</a></p>
   </div>
 </div>
 <p>Which is exactly what bit Marcus at 2:47 AM: the compaction summary kept the <em>narrative</em> ("we discussed refund policy") and dropped the <em>number</em> ($500). His fix is the standing Apex rule now: <strong>before compacting, write load-bearing facts somewhere deterministic.</strong> The transcript is working memory, not a system of record.</p>

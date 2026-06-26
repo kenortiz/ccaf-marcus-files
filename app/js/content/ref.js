@@ -98,7 +98,7 @@ window.CCAF.pages.push({
 <table>
   <tr><th>Tier</th><th>Resource</th><th>Use for</th></tr>
   <tr><td>1 · Authority</td><td>Official CCA-F exam guide</td><td>Final word on conflicts; the hands-on exercises</td></tr>
-  <tr><td>2 · Official</td><td><a href="https://anthropic.skilljar.com" target="_blank" rel="noopener">Skilljar courses</a> · <a href="https://code.claude.com/docs" target="_blank" rel="noopener">code.claude.com/docs</a> · <a href="https://docs.claude.com" target="_blank" rel="noopener">docs.claude.com</a></td><td>Concept grounding; verifying exact flags/syntax</td></tr>
+  <tr><td>2 · Official</td><td><a href="https://anthropic.skilljar.com" target="_blank" rel="noopener">Skilljar courses</a> · <a href="https://code.claude.com/docs" target="_blank" rel="noopener">code.claude.com/docs</a> · <a href="https://platform.claude.com/docs" target="_blank" rel="noopener">platform.claude.com</a></td><td>Concept grounding; verifying exact flags/syntax</td></tr>
   <tr><td>2.5 · Supplement</td><td>Community guides &amp; practice question banks</td><td>Theory reference + timed mock volume</td></tr>
 </table>
 <p>Skilljar order that mirrors this season: Claude Code in Action (EP 01) → Intro to Agent Skills (EP 01) → Intro to Subagents (EP 04) → Intro to MCP + MCP Advanced (EP 02) → Building with the Claude API (EP 05). Skip AI-fluency tracks and anything cloud/hosting.</p>

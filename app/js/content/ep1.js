@@ -68,7 +68,7 @@ A script that changes a database's structure. Sensitive: a bad edit can corrupt 
       <li><strong>Settings follow the same idea:</strong> <code>~/.claude/settings.json</code> (user) → <code>.claude/settings.json</code> (project, checked into git) → <code>.claude/settings.local.json</code> (your machine only, git-ignored). Hooks and permissions live here.</li>
       <li><strong>Hooks</strong> are shell commands that fire automatically at lifecycle events (PreToolUse, PostToolUse, and others). They always run → guarantees.</li>
     </ul>
-    <p style="margin:8px 0 0"><a href="https://code.claude.com/docs" target="_blank" rel="noopener">→ code.claude.com/docs (Memory · Settings · Hooks)</a></p>
+    <p style="margin:8px 0 0">→ code.claude.com/docs: <a href="https://code.claude.com/docs/en/memory" target="_blank" rel="noopener">Memory</a> · <a href="https://code.claude.com/docs/en/settings" target="_blank" rel="noopener">Settings</a> · <a href="https://code.claude.com/docs/en/hooks" target="_blank" rel="noopener">Hooks</a></p>
   </div>
 </div>
 

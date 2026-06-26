@@ -61,14 +61,14 @@ window.CCAF.pages.push({
 <div class="viewscreen">
   <div class="vs-head">VIEWSCREEN // OFFICIAL DOCS — MESSAGES API &amp; STOP REASONS</div>
   <div class="vs-body">
-    <div class="vs-src">docs.claude.com → API reference → Messages · Handling stop reasons</div>
+    <div class="vs-src">platform.claude.com → API reference → Messages · Handling stop reasons</div>
     Every model reply carries a machine-readable <code>stop_reason</code>:
     <ul>
       <li><code>"tool_use"</code> — the model is requesting a tool call. Run it, return the result, continue the loop.</li>
       <li><code>"end_turn"</code> — the model has finished its turn. <strong>This is the completion signal.</strong></li>
       <li><code>"max_tokens"</code> — the reply was <em>truncated</em> by the output limit. Not completion! Treat as an incident: continue or retry, never parse the truncated fragment as a finished answer.</li>
     </ul>
-    <p style="margin:8px 0 0"><a href="https://docs.claude.com/en/api/messages" target="_blank" rel="noopener">→ docs.claude.com — Messages API</a></p>
+    <p style="margin:8px 0 0"><a href="https://platform.claude.com/docs/en/api/messages" target="_blank" rel="noopener">→ platform.claude.com — Messages API</a></p>
   </div>
 </div>
 

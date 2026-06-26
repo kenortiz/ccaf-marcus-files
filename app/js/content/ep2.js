@@ -52,14 +52,14 @@ window.CCAF.pages.push({
 <div class="viewscreen">
   <div class="vs-head">VIEWSCREEN // OFFICIAL DOCS — TOOL USE</div>
   <div class="vs-body">
-    <div class="vs-src">docs.claude.com → Build with Claude → Tool use</div>
+    <div class="vs-src">platform.claude.com → Build with Claude → Tool use</div>
     <ul>
       <li>The model chooses tools by reading each tool's <strong>name, description, and input schema</strong>. That's the entire decision surface.</li>
       <li>Write descriptions that say <strong>what the tool does, when to use it, when NOT to use it</strong>, and what it returns.</li>
       <li><strong>Fewer, sharper tools beat many vague ones.</strong> Overlapping tools force coin-flips.</li>
       <li>Tool results you return can signal errors (<code>is_error</code>) — and the <em>content</em> of an error should help the model decide what to do next.</li>
     </ul>
-    <p style="margin:8px 0 0"><a href="https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview" target="_blank" rel="noopener">→ docs.claude.com — Tool use overview</a> · <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a></p>
+    <p style="margin:8px 0 0"><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview" target="_blank" rel="noopener">→ platform.claude.com — Tool use overview</a> · <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a></p>
   </div>
 </div>
 

@@ -34,7 +34,7 @@ window.CCAF.pages.push({
 <div class="viewscreen">
   <div class="vs-head">VIEWSCREEN // OFFICIAL DOCS — PROMPT ENGINEERING</div>
   <div class="vs-body">
-    <div class="vs-src">docs.claude.com → Build with Claude → Prompt engineering</div>
+    <div class="vs-src">platform.claude.com → Build with Claude → Prompt engineering</div>
     The doc-distilled hierarchy Marcus writes on the whiteboard:
     <ul>
       <li><strong>Be clear and direct.</strong> Replace judgment words ("important", "relevant", "appropriate") with explicit criteria. If a competent temp couldn't follow your instruction on day one, the model can't either.</li>
@@ -44,7 +44,7 @@ window.CCAF.pages.push({
       <li><strong>Let it think</strong> (chain of thought) for genuinely complex reasoning — ask for analysis before the answer when accuracy beats latency.</li>
       <li><strong>Prefill</strong> the start of the assistant's reply to constrain format when you're not using tools.</li>
     </ul>
-    <p style="margin:8px 0 0"><a href="https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener">→ docs.claude.com — Prompt engineering overview</a></p>
+    <p style="margin:8px 0 0"><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener">→ platform.claude.com — Prompt engineering overview</a></p>
   </div>
 </div>
 

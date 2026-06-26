@@ -53,7 +53,7 @@ Running Claude Code non-interactively: <code>claude -p "prompt"</code> takes one
       <li><code>--max-turns N</code> — backstop against runaway sessions; <code>--bare</code> skips local hooks/MCP/CLAUDE.md so the run is reproducible across machines.</li>
     </ul>
     <strong>Schema enforcement exists:</strong> <code>--output-format json --json-schema '{…}'</code> returns schema-conforming output in the <code>structured_output</code> field (the model's free-text answer stays in <code>.result</code>). Use it — but remember <strong>shape is not values</strong>: still <strong>validate the parsed result in your own script</strong> and fail safe if it's wrong.
-    <p style="margin:8px 0 0"><a href="https://code.claude.com/docs" target="_blank" rel="noopener">→ code.claude.com/docs — CLI reference</a></p>
+    <p style="margin:8px 0 0"><a href="https://code.claude.com/docs/en/cli-reference" target="_blank" rel="noopener">→ code.claude.com/docs — CLI reference</a></p>
   </div>
 </div>
 

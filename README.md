@@ -111,7 +111,7 @@ Each content file pushes a page object onto `window.CCAF.pages`; `app.js` render
 ## 🙏 Acknowledgments & credits
 
 - **[paullarionov/claude-certified-architect](https://github.com/paullarionov/claude-certified-architect)** — a comprehensive community study guide for the CCA-F by **Paul Larionov**. It was an invaluable reference for scenario framing and domain coverage while building this project. If you're studying for the exam, **go read it** — it's an excellent companion to this app. Huge thanks, Paul. 🙌
-- **[Anthropic](https://www.anthropic.com)** — the official [CCA-F exam guide](https://www.anthropic.com), [`code.claude.com/docs`](https://code.claude.com/docs), [`docs.claude.com`](https://docs.claude.com), and the [Skilljar courses](https://anthropic.skilljar.com) are the source of truth for everything taught here.
+- **[Anthropic](https://www.anthropic.com)** — the official [CCA-F exam guide](https://www.anthropic.com), [`code.claude.com/docs`](https://code.claude.com/docs), [`platform.claude.com/docs`](https://platform.claude.com/docs), and the [Skilljar courses](https://anthropic.skilljar.com) are the source of truth for everything taught here.
 - **[Model Context Protocol](https://modelcontextprotocol.io)** docs for the MCP material.
 
 ---
