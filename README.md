@@ -132,4 +132,10 @@ Issues and PRs are welcome — fixes to explanations, clearer labs, new drill qu
 
 ---
 
+## 📄 License
+
+Released under the [MIT License](LICENSE) — free to use, modify, and share. "Claude", "Anthropic", and related marks belong to their respective owners; this project is unofficial and uses them only nominatively to describe the exam it helps you study for.
+
+---
+
 *Built with Claude Code.*
