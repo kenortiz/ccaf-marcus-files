@@ -2,6 +2,8 @@
 
 A free, **story-driven, hands-on study guide** for the **Claude Certified Architect – Foundations (CCA-F)** exam, built as a self-contained static web app.
 
+**▶ Live demo: https://kenortiz.github.io/ccaf-marcus-files/**
+
 Instead of flashcards, you follow **Marcus** — a senior architect on the AI Center of Excellence team at the fictional *Apex Consulting* — through eight client engagements. Each episode dramatizes one slice of the exam: Marcus hits a real production problem, checks the official docs, and rebuilds the system the right way. **You build it alongside Marcus**, step by step, in your own terminal — then drill the exam questions that test that pattern.
 
 > **Unofficial & independent.** Not affiliated with, endorsed by, or sponsored by Anthropic. All characters and companies are fictional. Always trust the live official docs and your official exam guide over this (or any) study aid.
@@ -68,12 +70,6 @@ cd app && python3 serve.py     # → http://127.0.0.1:8765
 ```
 
 Online fonts are optional — the app falls back to system fonts and works fully offline.
-
-### Host it online
-
-**Live demo:** **https://kenortiz.github.io/ccaf-marcus-files/**
-
-This repo deploys to **GitHub Pages** automatically via [`.github/workflows/pages.yml`](.github/workflows/pages.yml) — it publishes the `app/` directory on every push to `main`, with no build step. The app is fully static, so any other static host works just as well (Netlify, Vercel, Cloudflare Pages); point the host's root at the `app/` directory.
 
 ---
 
